@@ -85,7 +85,7 @@ $has = explode('\"' ,explode('hash=', $res)[1])[0];
 $vid = explode('&' ,explode('video_id=', $res)[1])[0];
 $mer = explode('&' ,explode('timer=', $res)[1])[0];
 $merr = explode('\" data-meta=' ,explode('\"', $mer)[1])[0];
-$hh = $tim+1;
+$hh = $tim+2;
 timer($hh);
 
 $url = 'https://aviso.bz/ajax/earnings/ajax-youtube-external.php';
